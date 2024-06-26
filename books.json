@@ -1,0 +1,56 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "release_date": "April 10, 1925",
+      "image": "The Great Gatsby.jpeg"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "release_date": "July 11, 1960",
+      "image": "To Kill a Mockingbird.jpg"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "release_date": "June 8, 1949",
+      "image": "1984.jpeg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "release_date": "January 28, 1813",
+      "image": "Pride and Prejudice.jpeg"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "release_date": "July 16, 1951",
+      "image": "The Catcher in the Rye.jpeg"
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "release_date": "June 26, 1997",
+      "image": "Harry Potter and the Philosopher's Stone.jpeg"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "release_date": "September 21, 1937",
+      "image": "The Hobbit.jpeg"
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "release_date": "October 18, 1851",
+      "image": "Moby Dick.jpeg"
+    },
+    {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "release_date": "September 14, 2008",
+      "image": "The Hunger Games.jpeg"
+    }
+]

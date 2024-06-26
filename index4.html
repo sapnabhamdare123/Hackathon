@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnyRGxqDcE07Ey_NXefnqiY0Z4CQ7TywA__A&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 80px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Ensure container is relative for absolute positioning */
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .book {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative; /* Ensure relative positioning for absolute child elements */
+        }
+        
+        .book img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        
+        .book-details {
+            text-align: center;
+            flex: 1;
+            width: 100%;
+        }
+        
+        .book-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .book-author {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .book-release-date {
+            margin-bottom: 10px;
+        }
+        
+        .favorites-btn {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .favorites-btn:hover {
+            background-color: #218838;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 20px;
+        }
+        
+        .navigation button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .navigation button:hover {
+            background-color: #0056b3;
+        }
+        
+        .navigation button:disabled {
+            background-color: #ddd;
+            color: #666;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book's Collection 📙📚</h1>
+        <div id="bookContainer"></div>
+        <div class="navigation">
+            <button id="prevBtn" disabled>Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const booksUrl = 'books.json'; // JSON file containing book data
+
+            const bookContainer = document.getElementById('bookContainer');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            let currentBookIndex = 0;
+            let books = [];
+
+            // Fetch book data from JSON file
+            fetch(booksUrl)
+                .then(response => response.json())
+                .then(data => {
+                    books = data;
+                    displayBook(currentBookIndex);
+                })
+                .catch(error => console.error('Error fetching books:', error));
+
+            // Function to display current book
+            function displayBook(index) {
+                const book = books[index];
+
+                if (book) {
+                    const bookElement = document.createElement('div');
+                    bookElement.classList.add('book');
+
+                    // Book Image
+                    const img = document.createElement('img');
+                    img.src = book.image;
+                    img.alt = book.title;
+                    bookElement.appendChild(img);
+
+                    // Book Details
+                    const details = document.createElement('div');
+                    details.classList.add('book-details');
+
+                    // Book Name
+                    const name = document.createElement('div');
+                    name.classList.add('book-name');
+                    name.textContent = book.title;
+                    details.appendChild(name);
+
+                    // Book Author
+                    const author = document.createElement('div');
+                    author.classList.add('book-author');
+                    author.textContent = `By: ${book.author}`;
+                    details.appendChild(author);
+
+                    // Book Release Date
+                    const releaseDate = document.createElement('div');
+                    releaseDate.classList.add('book-release-date');
+                    releaseDate.textContent = `Release Date: ${book.release_date}`;
+                    details.appendChild(releaseDate);
+
+                    // Add to Favorites Button
+                    const favoritesBtn = document.createElement('button');
+                    favoritesBtn.classList.add('favorites-btn');
+                    favoritesBtn.textContent = 'Add to Favorites';
+                    favoritesBtn.addEventListener('click', () => addToFavorites(book));
+                    details.appendChild(favoritesBtn);
+
+                    bookElement.appendChild(details);
+
+                    // Clear previous book
+                    bookContainer.innerHTML = '';
+                    bookContainer.appendChild(bookElement);
+
+                    // Enable/disable navigation buttons based on index
+                    prevBtn.disabled = index === 0;
+                    nextBtn.disabled = index === books.length - 1;
+                }
+            }
+
+            // Event listener for navigation buttons
+            prevBtn.addEventListener('click', () => {
+                if (currentBookIndex > 0) {
+                    currentBookIndex--;
+                    displayBook(currentBookIndex);
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentBookIndex < books.length - 1) {
+                    currentBookIndex++;
+                    displayBook(currentBookIndex);
+                }
+            });
+
+            // Function to handle adding book to favorites (dummy function)
+            function addToFavorites(book) {
+                alert(`Added ${book.title} to Favorites! Implement your favorites logic here.`);
+            }
+        });
+    </script>
+</body>
+</html>
