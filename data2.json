@@ -1,0 +1,96 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Jungle Book",
+        "author": "Rudyard Kipling",
+        "releaseDate": "January 1, 1894",
+        "coverImage": "img/book1.jpg",
+        "genre": "Fiction",
+        "reviews": [
+          "IMO, Rudyard Kipling is the worst example of the quintessential British Imperialist and Colonialist. His attitude towards India is contemptuous and condescending. As a person, I dislike him intensely. Kipling writes beautifully. His stories are simple, engaging and profound at the same time. As a writer, I love him. This is a childhood favourite. I read it first in translation, and then in the original. This is a true classic - it works for one as a child as well as an adult.",
+          "We are the masters of our planet, but we are not very good masters. We are, in the blunt phrase I saw a zoologist use the other day, a plague species. Sometimes, one feels the world would be better off without human beings. This isn't necessarily a counsel of despair or treachery. Our true loyalty should be not to mankind but to our genes, and most of those genes are to be found in other species who are far less destructive. It would almost be a relief if the beautiful and savage animals we share the world with could take it back from us and relieve us of this responsibility we are not equal to. Oddly enough, the author I know who is best at giving a voice to these feelings is Rudyard Kipling, in his short story Letting in the Jungle. The villagers have angered Mowgli and his friends. Now, the jungle folk return in force, led by Hathi the elephant and his three terrible sons. The ending and the concluding poem are unforgettable: The four pushed side by side; the outer wall bulged, split, and fell, and the villagers, dumb with horror, saw the savage, clay-streaked heads of the wreckers in the ragged gap. Then they fled, houseless and foodless, down the valley, as their village, shredded and tossed and trampled, melted behind them. A month later the place was a dimpled mound, covered with soft, green young stuff; and by the end of the Rains there was the roaring jungle in full blast on the spot that had been under plough not six months before. MOWGLI'S SONG AGAINST PEOPLE I will let loose against you the fleet-footed vines-- I will call in the Jungle to stamp out your lines! The roofs shall fade before it, The house-beams shall fall, And the Karela, the bitter Karela, Shall cover it all! In the gates of these your councils my people shall sing, In the doors of these your garners the Bat-folk ..."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Great Indian Novel",
+        "author": "Shashi Tharoor",
+        "releaseDate": "January 1, 1989",
+        "coverImage": "img/book2.jpg",
+        "genre": "Fiction · India · Historical Fiction · Indian Literature · Mythology · Humor · Politics · Literature · Novels · Literary Fiction",
+        "reviews": [
+          "Shashi Tharoor? How on earth can one read Shashi Tharoor? Why? What is wrong in reading Shashi Tharoor? I retorted.Oh! That womanizer, Gandhi-bhakt, Congress-chamacha, corrupt murderer! What does he know about the world? From this book, looks like a great deal. Anyway, those charges are biased personal opinions. And even if those were true, how does it matter in enjoying a book? Anyway, what is the idiotic looking narcissistic book about? Well, this book sort of marries The Mahabharata (probably the greatest book ever written) and Indian polity during the pre and post independence. The resultant is, as expected, an Indian marriage ceremony. Grand. Dazzling. Filled with lots of laughter. Little sense of nostalgia. But, pointless. Nevertheless, the writing is brilliant. Informed. Ornamental. Intelligent. Humorous. But the parallels - forced. Not all. Some are really interesting. But it is not easy to mix two complex narratives. It was an audacious attempt. By the way, who do you think would be Dhritarashtra and Pandu in this book? Your description doesn't motivate me to read the book. And what could that stupid Congii would have written? Must have painted Nehru and Gandhi to be the heroes. Didn't he? Well. He drew the parallel between Dhritarashtra and Nehru. Indira Gandhi was Duryodhan. Karna was Jinnah. And surprise surprise. Subash Bose was Pandu. Janta Party was the Pandavas with Jayaprakash Naryan as Drona. What hypocritic opportunist Tharoor is! Must have written this during the emergency period,Pongalswamy exclaimed. I didn't see any further point to continue the discussion. I concentrated on the book rather, wishing it to end soon. It was becoming draggy",
+          "And that, I suppose, completes my Goodreads annual reading challenge. Well, the moment I felt I should write a long review for this book has passed (besides the fact that no one read the one lengthy review I've written till date), so I'll spare the reader who has incidentally stumbled upon this one.'The Great Indian Novel', Shashi Tharoor's debut work of fiction, is essentially a retelling of the Indian epic Mahabharata, but it falls in the realm of political satire by drawing parallels with major events in India's political history during the freedom movement as well as in the post-independence era. First up, I'd like to applaud the author for deciding to reinterpret &amp; present Indian history in a different light and his courage (yes, in a country where many people seem to lack a sense of humour when it comes to 'culture') in assuming an irreverent attitude towards some of India's greatest political leaders throughout the narrative. Also, credit must go to Tharoor for making brilliant use of prose as well as verse as a literary device, which pays homage to the epic itself. Tharoor also indulges in exploring the relevance of the Hindu concepts of dharma &amp; karma in today's world, questions the writing of our official history books &amp; leaves the small matter of the motto 'Satyamev Jayate' (Truth Alone Triumphs) open to discussion. No, I really can't find fault with this book, for there is not a boring moment throughout the course of the plot. Of course, the author doesn't have to do much with the characterization aspect - for almost every character of this novel usually stands for a character from the Mahabharata or a figure from India's political history, but he does well to remain faithful to his inspiration by incorporating as many attributes as possible. As a result, a few liberties were ..."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Wings of Fire",
+        "author": "APJ Abdul Kalam",
+        "releaseDate": "January 1, 1999",
+        "coverImage": "img/book3.jpg",
+        "genre": "Biography · Nonfiction · Autobiography · India · Indian Literature · Inspirational · Memoir · Science · Self Help · History",
+        "reviews": [
+          "There are many people who I have to thank for developing my reading habit. Sarala teacher, my high school English teacher, will be on the top of that list. She is one of the first people who understood my love for literature even before she started teaching me when she saw the essay I wrote for an essay writing competition. This is the book she recommended to me when I was going through a challenging phase of my life. That was also the first book recommendation I got in my life. This book has made an extraordinary impact on my life. Kalam's love for books, quest for knowledge and simplicity, workaholic nature, leadership skills which he learned from his seniors like Vikram Sarabhai and Satish Dhawan, fightbacks from failures, love for children, and ability to motivate others, are all excellently portrayed in this book. This is a book you should never miss if you are someone who loves to read biographies."
+        ]
+      },
+      {
+        "id":4,
+        "title":"To kill a Mockingbird",
+        "author":"Harper Lee",
+        "releaseDate":"July 1960",
+        "coverImage":"img/book4.jpg",
+        "genre":"Scholars have characterized To Kill a Mockingbird as both a Southern Gothic and a Bildungsroman. The grotesque and near-supernatural qualities of Boo Radley and his house, and the element of racial injustice involving Tom Robinson, contribute to the aura of the Gothic in the novel.",
+        "reviews":[
+            "To Kill A Mocking Bird was an icon book full of meanings and lessons especially at the time it was written. This novel covers huge issues such as racism, addiction, rape, and even death through the perspective of a young girl. From what what i understand this book is about scout learning life lessons and coming to understand the world.To Kill A Mocking Bird is about growing up, the main character is named Scout Finch and is six when the book begins and eight at the end of the novel. The book is about what she learns about people, and life in the coarse of the two years the reader feels like they are apart of her life.The story takes place in 1935 too 1938 in the small southern town of Maycomb, Alabama. We are introduced to the story of a small family consisting of the main character Scout, her brother Jem, her father Atticus Finch, and the children's care taker Calpernia. Atticus is a lawyer, but doesn't make much money because the clients he has are poor. As we get to know the kids we find out that Scout is a tom boy who likes excitment, and Jem is the other brother who tries to mentor Scout but like Scout is curious and likes to play games. Shortly into the story we meet Dill a boy who stays next door for the summer and ends up being friends with the two, spending most of their time together.This book is mainly based around four Lessons Scout learns throughout the book. The first lesson is putting yourself in someone else's shoes, which takes up most of the book. On the street the kids live on their is a old house where Arther Radley lives, but because he never goes outside the children paint a picture of him being a mean ugly old man. After a while of playing games involving the house the kids start finding gifts from later to be found out Boo/Arther Radley."
+        ]
+      },
+      {
+        "id":5,
+        "title":"The Hobbit",
+        "author":"J.R.R.Tolkien",
+        "releaseDate":"Sep 21,1937",
+        "coverImage":"img/book5.jpg",
+        "genre":"Fantasy · Fiction · Classics · Adventure · Science Fiction Fantasy · High Fantasy · Young Adult · Epic Fantasy · Novels",
+        "reviews":[
+            "A great book for anyone of any age. However, more importantly the message of being willing to face your fears really hits home. I LOVED IT!",
+            "My first audiobook! The Hobbit is one of my all time favourite books, and I really enjoyed listening to it. The narrator did a fantastic job!"
+        ]
+      },
+      {
+        "id":6,
+        "title":"Gunahon ka Devta",
+        "author":"Dharamvir Bharati",
+        "releaseDate":"January 1, 1949",
+        "coverImage":"img/book6.jpg",
+        "genre":"Fiction · Classics · India · Indian Literature · Romance · Novels · Literature · Drama · Romantic · Literary Fiction",
+        "reviews":[
+            "What a shame that I can't write review of this book in Hindi! Frankly speaking I am scared to do injustice to the language. This has been my first serious attempt with Hindi literature. I am overwhelmed and in complete awe with the writing. The simple story is conveyed in a subtle intense style. After reading this book, I feel a shooting pain inside the heart. It grows with time. This book has a hypnotizing power. The way it explores various shades of love has mesmerized me completely. Considering that this book was written in 1949 and one can totally relate to it after six and a half decades depicts the brilliance of this book. More than the story, the selection of words and style is commendable. The sheer excellence in conveying different opinion is something which I came across after so long.On the one hand, Dr. Shukla bows down to the patriarchal set up so prevalent in the society back then, on the other he feels himself victimized by the tenets of the patriarchy when his daughter suffers. The ways in which Chander and Sudha pay for not being together is heartwrenching. '...और क्षितिज से एक तारा टूटा! can totally move you into tears and take you to the unexplored depth of your heart.Please read the book only if you have good command of the language."
+        ]
+      },
+      {
+        "id":7,
+        "title":"Hunted By The Sky",
+        "author":"Tanaz Bhathena",
+        "releaseDate":"June 23,2020",
+        "coverImage":"img/book7.jpg",
+        "genre":"Fantasy · Young Adult · Romance · Young Adult Fantasy · Fiction · Mythology · Magic · High Fantasy · India",
+        "reviews":[
+            "Tanaz Bhatena is writing fantasy now? Sign me up!I've had a great experience with this author's work so far:A Girl Like That: ★★★★★The Beauty of the Moment: ★★★★☆I loved both books though they're not in a genre I usually read. I can only imagine how much I'd love a book by Tanaz Bhatena in my favorite genre!Also, I'm so happy to see an India-inspired fantasy by an author actually born in India. US authors have been dominating the scene, so it's great to hear from some more varied, authentic voices. If anyone wants to give me an ARC, I'm right here! *waves*"
+        ]
+      },
+      {
+        "id":8,
+        "title":"Think and Grow",
+        "author":"Napoleon Hill",
+        "releaseDate":"January 1, 1937",
+        "coverImage":"img/book8.jpg",
+        "genre":"Business · Self Help · Nonfiction · Finance · Personal Development · Money · Psychology · Personal Finance · Philosophy · Entrepreneurship",
+        "reviews":[
+            "Tanaz Bhatena is writing fantasy now? Sign me up!I've had a great experience with this author's work so far:A Girl Like That: ★★★★★The Beauty of the Moment: ★★★★☆I loved both books though they're not in a genre I usually read. I can only imagine how much I'd love a book by Tanaz Bhatena in my favorite genre!Also, I'm so happy to see an India-inspired fantasy by an author actually born in India. US authors have been dominating the scene, so it's great to hear from some more varied, authentic voices. If anyone wants to give me an ARC, I'm right here! *waves*"
+        ]
+      }
+    ]
+  }
+  
